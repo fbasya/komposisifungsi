@@ -4,9 +4,8 @@
 <head>
 </head>
 <body>
-<center>
 <br>
-<form name="tset">
+<form name="satu">
 FUNGSI KOMPOSISI 
 <br><br>
 Masukkan Fungsi Pertama f(x)<br><br>
@@ -25,12 +24,12 @@ Masukkan Fungsi Pertama g(x)<br><br>
 </form>
     <script>
         function myFunction() {
-        var a1  = document.forms['tset']["a1"].value;
-        var b1  = document.forms['tset']["b1"].value;
-        var c1  = document.forms['tset']["c1"].value;
-        var a2  = document.forms['tset']["a2"].value;
-        var b2  = document.forms['tset']["b2"].value;
-        var c2  = document.forms['tset']["c2"].value;
+        var a1  = document.forms['satu']["a1"].value;
+        var b1  = document.forms['satu']["b1"].value;
+        var c1  = document.forms['satu']["c1"].value;
+        var a2  = document.forms['satu']["a2"].value;
+        var b2  = document.forms['satu']["b2"].value;
+        var c2  = document.forms['satu']["c2"].value;
         var n1  = b1*a2
         var n2  = b1*b2
         var n3  = b1*c2
@@ -93,6 +92,5 @@ document.getElementById("pembahasan").innerHTML =
         }
   
 </script>
-</center>
 </body>
 </html>
